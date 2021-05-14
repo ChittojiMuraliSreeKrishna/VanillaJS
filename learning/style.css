@@ -1,0 +1,57 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: left;
+  text-transform: uppercase;
+}
+header h1 {
+  text-align: center;
+  text-transform: none;
+  color: blue;
+  margin-top: 5rem;
+}
+.container {
+  background: lightgrey;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+label {
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+#email,
+#name {
+  width: 230px;
+  border-radius: 25px;
+  height: 1.5rem;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 230px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: darkgreen;
+  font-weight: 900;
+}
+.error {
+  color: red;
+}
